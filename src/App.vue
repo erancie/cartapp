@@ -50,7 +50,8 @@
 
 export default {
   name: 'App',
-  components: { TopNav , Home, Account, History, Item, Login, Cart, Carousel3d,
+    props: ['prodId', 'title', 'img', 'price'],
+  components: { TopNav , Home, Account, History, Login, Cart, Carousel3d,
     Slide },
   computed: {
     products() { return this.$store.getters.products; },
