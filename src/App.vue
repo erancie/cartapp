@@ -84,7 +84,7 @@ html, body, #app {
 }
 .fade-enter-active, .fade-leave-active {
   transition-delay: 2.5s;
-  transition: opacity .3s;
+  transition: opacity .4s;
 }
 .fade-enter, .fade-leave-to {
     transition-delay: 2.5s;
